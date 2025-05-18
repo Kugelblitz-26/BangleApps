@@ -1,0 +1,13 @@
+{ "id": "sleepelog",
+  "name": "Sleep Track App",
+  "shortName":"STrack",
+  "icon": "sleep-48.png",
+  "version":"0.01",
+  "description": "This is a description of my awesome Sleep tracker app",
+  "tags": "",
+  "supports": ["BANGLEJS2"],
+  "storage": [
+    {"name":"sleepelog.app.js","url":"app.js"},
+    {"name":"sleep-48.png","url":"icon-sleep-48.js","evaluate":true}
+  ]
+}
