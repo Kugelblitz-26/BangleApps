@@ -10,6 +10,7 @@
   "storage": [
     {"name":"sleeplog.app.js","url":"sleeplog.app.js"},
     {"name":"sleeplog.boot.js","url":"sleeplog.boot.js"}
+    {"name":"sleep-48.png","url":"icon-sleep-48.js","evaluate":true}
   ],
   "data": [
     {"name":"sleepdata.json"},
