@@ -1,1 +1,18 @@
-
+{
+  "id": "sleeplog",
+  "name": "Sleep Logger",
+  "version": "0.01",
+  "description": "AI-based sleep tracking. Logs data and displays analysis.",
+  "icon": "sleeplog.img",
+  "type": "app",
+  "tags": "health,tool",
+  "supports": ["BANGLEJS"],
+  "storage": [
+    {"name":"sleeplog.app.js","url":"sleeplog.app.js"},
+    {"name":"sleeplog.boot.js","url":"sleeplog.boot.js"}
+  ],
+  "data": [
+    {"name":"sleepdata.json"},
+    {"name":"sleepdata.analyzed.json"}
+  ]
+}
